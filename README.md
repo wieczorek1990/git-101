@@ -25,6 +25,8 @@ cat ~/.ssh/id_rsa.pub
 
 ## Nomenclature
 
+> Correct me if I am wrong. I am no expert. I just use it for work.
+
 * commit — save changes locally
 * push — send changes to some Git server
 * pull — receive changes from some Git server
@@ -287,7 +289,7 @@ pf
 standup
 ```
 
-## Tutorials
+## Exercises
 
 ### #1
 
