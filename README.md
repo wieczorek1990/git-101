@@ -40,7 +40,15 @@ cat ~/.ssh/id_rsa.pub
 * branch — name pointing at commit
 * staged files — files to add, remove or modify in commit
 
-## 101
+## Tutorials
+
+1. [Moving around](/tutorials/1.md)
+
+## Exercises
+
+1. [Repository structure](/exercises/1.md)
+
+## Aliases
 
 Before issuing any commands run `gitsh`.
 
@@ -287,25 +295,5 @@ pf
 
 ```sh
 standup
-```
-
-## Exercises
-
-### #1
-
-```
-Create a README.md with some content (1) on master branch and commit.
-Create a develop branch based on master.
-Change README.md content (2) on develop branch and commit.
-Create a feature/documentation/readme branch based on develop.
-Change README.md on feature/documentation/readme branch and commit.
-Change README.md content (3) on develop branch and commit.
-Rebase feature/documentation/readme branch using develop.
-Merge feature/documentation/readme branch into develop.
-Merge develop into master.
-Push all branches to server.
-Squash all commits into one on master changing the commit message.
-Push master to server.
-Remove both local and remote feature/documentation/readme branch.
 ```
 
