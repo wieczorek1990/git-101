@@ -55,4 +55,5 @@ View [Aliases.md](/Aliases.md) for my aliases descriptions.
 ## Links
 
 1. [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
+2. [git — the simple guide](http://rogerdudler.github.io/git-guide/)
 
