@@ -47,6 +47,7 @@ cat ~/.ssh/id_rsa.pub
 ## Exercises
 
 1. [Repository structure](/exercises/1.md)
+1. [Changes everywhere](/exercises/2.md)
 
 ## Aliases
 
