@@ -23,6 +23,45 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 
+### Setting default editor in Bash
+
+You might want to specify a different default editor for Git actions.
+
+I recommed you to learn VIM, but if you wish to use Atom do as follows.
+
+Make sure that you have a `.bash_profile` file in home directory (`~/.bash_profile`) with simillar contents:
+
+```sh
+if [ -f "$HOME/.bashrc" ]
+then
+  . "$HOME/.bashrc"
+fi
+```
+
+You might have `.profile` file (`~/.profile`) with simmilar content instead.
+
+You also need to add the following line to `.bashrc` file (`~/.bashrc`).
+
+```sh
+export EDITOR='atom --wait'
+```
+
+In case you want VIM instead type:
+
+```sh
+export EDITOR=vim
+```
+
+#### On Mac OS
+
+After unziping the archive downloaded from official Atom site move it to
+Applications folder and run this in terminal:
+
+```sh
+sudo mkdir -p /usr/local/bin/
+sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+```
+
 ## Nomenclature
 
 > Correct me if I am wrong. I am no expert. I just use it for work.
@@ -44,12 +83,13 @@ cat ~/.ssh/id_rsa.pub
 ## Tutorials
 
 1. [Moving around](/tutorials/1.md)
-1. [Changes everywhere](/tutorials/2.md)
+2. [Changes everywhere](/tutorials/2.md) [In progress]
 
 ## Exercises
 
 1. [Repository structure](/exercises/1.md)
-1. [Changes everywhere](/exercises/2.md)
+2. [Changes everywhere part 1](/exercises/2-1.md)
+3. [Changes everywhere part 2](/exercises/2-2.md)
 
 ## Aliases
 
