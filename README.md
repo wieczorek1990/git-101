@@ -27,7 +27,8 @@ cat ~/.ssh/id_rsa.pub
 
 > Correct me if I am wrong. I am no expert. I just use it for work.
 
-* commit — save changes locally
+* add - adds the files you want to commit
+* commit — save changes locally with a message about what was changed
 * push — send changes to some Git server
 * pull — receive changes from some Git server
 * merge — merge changes from different branche
