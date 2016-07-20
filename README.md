@@ -44,6 +44,7 @@ cat ~/.ssh/id_rsa.pub
 ## Tutorials
 
 1. [Moving around](/tutorials/1.md)
+1. [Changes everywhere](/tutorials/2.md)
 
 ## Exercises
 
