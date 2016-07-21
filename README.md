@@ -23,6 +23,20 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 
+### Setting default editor in git config
+
+Atom:
+
+```sh
+git config --global core.editor 'atom --wait'
+```
+
+VIM:
+
+```sh
+git config --global core.editor vim
+```
+
 ### Setting default editor in Bash
 
 You might want to specify a different default editor for Git actions.
@@ -52,7 +66,7 @@ In case you want VIM instead type:
 export EDITOR=vim
 ```
 
-#### On Mac OS
+### Atom on Mac OS
 
 After unziping the archive downloaded from official Atom site move it to
 Applications folder and run this in terminal:
