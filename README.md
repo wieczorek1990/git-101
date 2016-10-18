@@ -31,6 +31,12 @@ Atom:
 git config --global core.editor 'atom --wait'
 ```
 
+Sublime Text:
+
+```sh
+git config --global core.editor subl
+```
+
 VIM:
 
 ```sh
@@ -60,20 +66,41 @@ You also need to add the following line to `.bashrc` file (`~/.bashrc`).
 export EDITOR='atom --wait'
 ```
 
+For Sublime Text:
+
+```sh
+export EDITOR=subl
+```
+
 In case you want VIM instead type:
 
 ```sh
 export EDITOR=vim
 ```
 
-### Atom on Mac OS
+### GUI text editors on Mac OS
 
-After unziping the archive downloaded from official Atom site move it to
-Applications folder and run this in terminal:
+Create `/usr/local/bin/` if it does not exist. We will place symlinks in there as it is in `PATH` variable by default.
 
 ```sh
 sudo mkdir -p /usr/local/bin/
+```
+
+#### Atom
+
+After unziping the archive downloaded from official Atom site move it to
+Applications folder and create a symlink to `atom.sh`:
+
+```sh
 sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+```
+
+#### Sublime Text
+
+After installing create a symlink to `subl`:
+
+```sh
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 ## Nomenclature
