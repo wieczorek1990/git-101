@@ -19,7 +19,7 @@ Optionally create `~/.gitlocal` with custom local configuration.
 Create SSH keys and add them to your Git server provider if not done already.
 
 ```sh
-ssh-keygen
+ssh-keygen -b 4096
 cat ~/.ssh/id_rsa.pub
 ```
 
