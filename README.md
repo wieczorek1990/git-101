@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install [`git`](https://git-scm.com/download/linux), [`gitsh`](https://github.com/thoughtbot/gitsh/blob/master/CONTRIBUTING.md#contributing-a-feature), [`git-standup`](https://github.com/kamranahmedse/git-standup), [`meld`](http://meldmerge.org/).
+Install [`git`](https://git-scm.com/download/linux), [`gitsh`](https://github.com/thoughtbot/gitsh/blob/master/CONTRIBUTING.md#contributing-a-feature), [`git-standup`](https://github.com/kamranahmedse/git-standup), [`meld`](http://meldmerge.org/), [`gitflow-avh`](https://github.com/petervanderdoes/gitflow-avh).
 
 Save [`.gitconfig`](https://github.com/wieczorek1990/dotfiles/blob/master/.gitconfig) as `~/.gitconfig`.
 
