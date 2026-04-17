@@ -119,7 +119,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 * stash — save local changes without commiting them in stash
 * cherry pick — apply chosen commit to the current branch
 * branch — name pointing at commit
-* staged files — files to add, remove or modify in commit
+* staged files — files to add, remove or modify in a commit
 
 ## Tutorials
 
