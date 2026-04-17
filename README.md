@@ -111,7 +111,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 * commit — save changes locally with a message about what was changed
 * push — send changes to some Git server
 * pull — receive changes from some Git server
-* merge — merge changes from different branche
+* merge — merge changes from different branches
 * rebase — rewrite changes history, usually to:
   * put your changes on top of others changes to maintain clear commit history and avoid merges
   * squash, fixup changes
